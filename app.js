@@ -14,7 +14,7 @@ function welcome(request, response){
     response.send("<h1>Express by Korawit</h1>");
 }
 function showToday(request, response){
-    //edit 2
+    //edit 3
     console.log(moment().format("LLL"));
     response.send(moment().format("LLL"));
 }
